@@ -1,0 +1,13 @@
+{
+  "content_scripts": [ {
+    "js": [ "jquery-2.1.4.min.js", "script.js" ],
+    "matches": [ "https://circleci.com/*" ]
+  } ],
+  "description": "",
+  "manifest_version": 2,
+  "name": "RetroCI",
+  "permissions": [ "activeTab" ],
+  "short_name": "RetroCI",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "0.1"
+}
